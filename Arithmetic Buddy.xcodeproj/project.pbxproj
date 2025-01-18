@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AF26EEDC2D3C0329009E244F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF26EED62D3C0329009E244F /* Preview Assets.xcassets */; };
+		AF26EEDD2D3C0329009E244F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF26EED92D3C0329009E244F /* Assets.xcassets */; };
+		AF26EEDE2D3C0329009E244F /* Arithmetic_BuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF26EED82D3C0329009E244F /* Arithmetic_BuddyApp.swift */; };
+		AF26EEDF2D3C0329009E244F /* AdditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF26EEDA2D3C0329009E244F /* AdditionView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		AF26EEC52D3C02DE009E244F /* Arithmetic Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arithmetic Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF26EED62D3C0329009E244F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF26EED82D3C0329009E244F /* Arithmetic_BuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arithmetic_BuddyApp.swift; sourceTree = "<group>"; };
+		AF26EED92D3C0329009E244F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF26EEDA2D3C0329009E244F /* AdditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		AF26EEC72D3C02DE009E244F /* Arithmetic Buddy */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Arithmetic Buddy";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AF26EEC22D3C02DE009E244F /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		AF26EEBC2D3C02DE009E244F = {
 			isa = PBXGroup;
 			children = (
-				AF26EEC72D3C02DE009E244F /* Arithmetic Buddy */,
+				AF26EEDB2D3C0329009E244F /* Arithmetic Buddy */,
 				AF26EEC62D3C02DE009E244F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,33 @@
 				AF26EEC52D3C02DE009E244F /* Arithmetic Buddy.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AF26EED72D3C0329009E244F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF26EED62D3C0329009E244F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF26EEDB2D3C0329009E244F /* Arithmetic Buddy */ = {
+			isa = PBXGroup;
+			children = (
+				AF26EED82D3C0329009E244F /* Arithmetic_BuddyApp.swift */,
+				AF26EEE32D3C034E009E244F /* Views */,
+				AF26EED72D3C0329009E244F /* Preview Content */,
+				AF26EED92D3C0329009E244F /* Assets.xcassets */,
+			);
+			path = "Arithmetic Buddy";
+			sourceTree = "<group>";
+		};
+		AF26EEE32D3C034E009E244F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF26EEDA2D3C0329009E244F /* AdditionView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +89,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				AF26EEC72D3C02DE009E244F /* Arithmetic Buddy */,
 			);
 			name = "Arithmetic Buddy";
 			packageProductDependencies = (
@@ -109,6 +136,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF26EEDC2D3C0329009E244F /* Preview Assets.xcassets in Resources */,
+				AF26EEDD2D3C0329009E244F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF26EEDE2D3C0329009E244F /* Arithmetic_BuddyApp.swift in Sources */,
+				AF26EEDF2D3C0329009E244F /* AdditionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
